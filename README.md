@@ -23,11 +23,6 @@ Para iniciar la aplicación, ejecuta el siguiente comando en tu terminal:
 
 npm start || npm start + ruta a analizar
 
-## Endpoints
-GET /: Devuelve un mensaje de bienvenida.
-GET /systemInfo: Devuelve un objeto JSON con información detallada sobre tu sistema operativo.
-
-
 ##Información proporcionada
 La aplicación proporciona la siguiente información sobre tu sistema de archivos:
 
