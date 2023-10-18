@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "picocolors": "^1.0.0",
+    "scripts": "^0.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build"
+  }
+}
