@@ -1,6 +1,6 @@
-# SystemInfo
+# Listar Archivos y Directorios con Node
 
-SystemInfo es una aplicación de Node.js que proporciona información detallada sobre tu sistema operativo.
+esta es una aplicación de Node.js que proporciona información detallada sobre todos los archivos o directorios dentro de una ruta determinada
 
 ## Requisitos
 
@@ -9,9 +9,7 @@ SystemInfo es una aplicación de Node.js que proporciona información detallada 
 
 ## Dependencias
 
-- express
-- cors
-- os (módulo integrado de Node.js)
+- picocolors
 
 ## Instalación
 
@@ -23,32 +21,19 @@ npm install
 ## Uso
 Para iniciar la aplicación, ejecuta el siguiente comando en tu terminal:
 
-npm start
-
+npm start || npm start + ruta a analizar
 
 ## Endpoints
 GET /: Devuelve un mensaje de bienvenida.
 GET /systemInfo: Devuelve un objeto JSON con información detallada sobre tu sistema operativo.
 
 
-##Información del sistema proporcionada
-La aplicación proporciona la siguiente información sobre tu sistema operativo:
+##Información proporcionada
+La aplicación proporciona la siguiente información sobre tu sistema de archivos:
 
-- Número de CPUs
-- Detalles de CPU
-- Tipo de sistema operativo
-- Arquitectura del sistema operativo
-- Plataforma del sistema operativo
-- Versión del sistema operativo
-- Nombre de host
-- Tiempo de actividad del sistema (en segundos)
-- Memoria total (en bytes)
-- Memoria libre (en bytes)
-- Carga promedio del sistema
-- Directorio de inicio del usuario actual
-- Directorio temporal del sistema
-- Endianness del sistema
-- Información del usuario
-- Interfaces de red
+- Si es directorio o archivo
+- Nombre del archivo
+- Peso (rojo o verde dependiendo del peso)
+- Fecha de modificacion del archivo
 
 ### Espero que esto te sea útil. ¡Feliz codificación! 😊
